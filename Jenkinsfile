@@ -1,6 +1,6 @@
 //Creating pipeline
 pipeline {
-//creating an agent using docter image of python
+//creating an agent using docker image of python
     agent { docker { image 'python:3.5.1' } }
     //creating stages for pipeline
     stages {
